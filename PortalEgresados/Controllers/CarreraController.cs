@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace PortalEgresados.Controllers
 {
-    //nombre corregido
     public class CarreraController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
+        
         [HttpGet()]
         public IActionResult Agregar()
         {
@@ -46,6 +45,5 @@ namespace PortalEgresados.Controllers
         {
             return View();
         }
-
     }
 }
